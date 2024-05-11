@@ -1,0 +1,53 @@
+body {
+    position: relative;
+    /* background-image: url("../images/body_background.jpg"); */
+    background-image: url("../images/back/body_background.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+}
+
+.banner_superior {
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+}
+
+.menu_superior {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.cuerpo_cv {
+    /* Aplica a todo el contenido del CV excepto el banner superior y el footer */
+    width: 80%;
+    align-self: center;
+}
+
+.borde_azul {
+    border: solid 5px blue;
+    padding: 5px;
+}
+
+.datos_personales {
+    background-color: dimgray;
+    color: white;
+    padding: 5px;
+}
+
+
+td {
+    padding: 5px;
+    padding-right: 15px;
+}
+
+.presentacion {
+    font-size: 20px;
+    color: black;
+}
+
+h1, h2 {
+    background-color: antiquewhite;
+}
